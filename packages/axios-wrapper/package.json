@@ -1,0 +1,25 @@
+{
+  "name": "@vics/axios-wrapper",
+  "version": "1.0.0",
+  "description": "A wrapper around Axios for HTTP requests",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "keywords": [
+    "axios",
+    "http",
+    "wrapper"
+  ],
+  "author": "Vic",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^0.34.0"
+  }
+}
