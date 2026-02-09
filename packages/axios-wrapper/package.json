@@ -1,5 +1,5 @@
 {
-  "name": "@vics/axios-wrapper",
+  "name": "@monorepo/axios-wrapper",
   "version": "1.0.0",
   "description": "A wrapper around Axios for HTTP requests",
   "main": "dist/index.js",
@@ -7,6 +7,11 @@
   "scripts": {
     "build": "tsc",
     "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Hsuan777/monorepo.git",
+    "directory": "packages/axios-wrapper"
   },
   "keywords": [
     "axios",
